@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-image: url("https://raw.githubusercontent.com/brandonao/Basic-Portfolio/master/assets/images/paper.png");
+}
+
+body {
+  padding: 10px;
+}
+
+h2 {
+	color: #0f1418;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 35px;
+	padding: 10px;
+	border-bottom: 2px solid #888888;
+	margin-bottom: 10px;
+}
+
+h1, h5 {
+	padding-top: 10px;
+	border-bottom: 2px solid #888888;
+}
+
+h4 {
+	font-family: monospace;
+	font-size: 10px;
+	padding: 15px;
+}
+
+h3 {
+	font-family: monospace;
+	font-size: 20px;
+	padding: 26px;
+	color: #f1f1f1;
+	position: relative;
+	right: 430px;
+	text-align: left;
+}
+
+h5 {
+	padding: 20px 0px 13px 0px;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #0f1418;
+	font-family: monospace;
+	font-size: 14px;
+  border: 2px solid #888888;
+}
+
+.nav {
+	position: relative;
+	top: 15px;
+	margin-right: 10px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    color: #888888;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 20px;
+		border: 2px solid #888888;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+		color: #777777;
+    padding: 20px;
+    text-align: center;
+    background: #0f1418;
+    margin-top: 20px;
+		border: 2px solid #888888;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 300px;
+    height: 75px;
+    margin: 10px;
+}
+
+.bio {
+	color: #777777;
+	margin: 25px 10px 10px 10px;
+	font-family: sans-serif;
+	font-size: 10px;
+	line-height: 1.5;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #0f1418;
+    color: #f1f1f1;
+    padding: 12px 20px;
+		margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+		color: #0f1418;
+		font-family: monospace;
+		font-size: 14px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+		font-family: monospace;
+		font-size: 10px;
+}
+
+#home {
+	border-style: solid;
+  border: 2px solid #888888;
+}
+
+#homeImg {
+	margin: 15px 10px 5px 0px;
+}
+
+#projects {
+	padding-bottom: 20px;
+}
+
+#connect {
+	margin: 20px 10px 0px 0px;
+	border-style: solid;
+	border: 2px solid #888888;
+	height: 150px;	color: #0f1418;
+}
+
+#connectLinks {
+	margin-top: 15px;
+	text-align: center;
+}
+
+@media (max-width: 640px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 980px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .topnav .nav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
